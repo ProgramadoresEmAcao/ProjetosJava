@@ -1,0 +1,29 @@
+package br.com.programadoresemacao.global;
+
+public class Utilitarios {
+	
+	public static boolean eNumero(String teste){
+		try {
+			Double.valueOf(teste);
+			return true;
+		} catch (Exception e) {
+			return false;
+		}
+	}
+	
+	public static boolean eInteiro(String teste){
+		try {
+			Integer.valueOf(teste);
+			return true;
+		} catch (Exception e) {
+			return false;
+		}
+	}
+	
+	public static String retiraMascara(String str){
+		str = str.replace("(", "").replace(")", "").replace("-", "").replace(",", "").replace(".", "").replace("\"", "");
+		return str;
+	}
+	
+	
+}
