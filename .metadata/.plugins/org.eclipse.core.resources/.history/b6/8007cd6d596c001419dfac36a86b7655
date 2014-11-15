@@ -1,0 +1,16 @@
+package br.com.programadoresemacao.global;
+
+public class Testadora {
+	public static void main(String[] args) {
+		
+		String[] testes = {"4","A","45a","20.6","20L","3  "};
+		for (String teste : testes) {
+			if(Utilitarios.eNumero(teste)){
+				System.out.println("\"" + teste + "\" eh numero");
+			}else{
+				System.out.println("\"" + teste + "\" nao eh numero");
+			}
+		}
+	}
+
+}

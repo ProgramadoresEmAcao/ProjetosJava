@@ -1,0 +1,9 @@
+package br.com.programadoresemacao.global;
+
+public class Testadora {
+	public static void main(String[] args) {
+		System.out.println(Utilitarios.eNumero("5"));
+		System.out.println(Utilitarios.eNumero("nao"));
+	}
+
+}

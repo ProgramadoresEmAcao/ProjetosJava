@@ -1,0 +1,8 @@
+package br.com.programadoresemacao.global;
+
+public class Testadora {
+	public static void main(String[] args) {
+
+	}
+
+}

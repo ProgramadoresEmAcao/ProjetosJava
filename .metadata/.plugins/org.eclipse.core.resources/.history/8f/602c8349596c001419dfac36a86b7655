@@ -1,0 +1,14 @@
+package br.com.programadoresemacao.global;
+
+public class Testadora {
+	public static void main(String[] args) {
+		
+		String[] testes = {"4","A","45a","20.6","20L"};
+		for (String teste : testes) {
+			
+		}
+		System.out.println(Utilitarios.eNumero("5"));
+		System.out.println(Utilitarios.eNumero("nao"));
+	}
+
+}
